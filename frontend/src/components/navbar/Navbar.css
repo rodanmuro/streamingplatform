@@ -1,0 +1,23 @@
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+    color: white;
+
+    margin-left: 0px;
+    margin-right: 10px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    background: #C62626;
+    border-radius: 25px;
+}
+

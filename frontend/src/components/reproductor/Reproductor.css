@@ -1,0 +1,68 @@
+.seccion-reproductor img {
+    padding-top: 3em;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.seccion-reproductor .viewtrailer {
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+}
+
+.seccion-reproductor .boton {
+    background-color: #a12121;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.seccion-reproductor .btn-cerrar{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+}
+
+.seccion-reproductor .reproductor {
+    width: 100%;
+    height: 800px;
+}
+
+@media(max-width: 991px){
+    .seccion-reproductor img {
+        width: 100%;
+        height: auto;
+        position: absolute !important;
+    }
+    .seccion-reproductor .viewtrailer { height: 35em; }
+}
+
+@media(max-width: 900px){
+    .seccion-reproductor .viewtrailer { height: 30em; }
+}
+
+@media(max-width: 720px){
+    .seccion-reproductor .viewtrailer { height: 25em; }
+}
+
+@media(max-width: 620px){
+    .seccion-reproductor .viewtrailer { height: 20em; }
+}
+
+@media(max-width: 520px){
+    .seccion-reproductor .viewtrailer { height: 22em; }
+}
+
+@media(max-width: 450px){
+    .seccion-reproductor .viewtrailer { height: 24em; }
+}

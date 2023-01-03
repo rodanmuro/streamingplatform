@@ -1,0 +1,25 @@
+.seccion-cardmovie .img-movie{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.6;
+}
+.seccion-cardmovie:hover{
+    margin-top: -18px;
+    transition: 0.4s;
+}
+
+.seccion-cardmovie .icon-play:hover{
+    width: 75px;
+    transition: 0.4s;
+}
+
+.seccion-cardmovie .icon-play{
+    width: 70px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    z-index: 1000;
+}
+

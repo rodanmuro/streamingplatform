@@ -1,0 +1,14 @@
+.userIcon{
+    padding-right: 20px;
+}
+
+.btn-secondary{
+    margin-top:10px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.dropdown-item{
+    font-weight: bolder;
+    margin:0px;
+}
