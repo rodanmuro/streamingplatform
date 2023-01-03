@@ -1,4 +1,4 @@
-#Streaming platform
+# Streaming platform
 
 This project is a fullstack developer project simulating  a Streaming Platform.
 
